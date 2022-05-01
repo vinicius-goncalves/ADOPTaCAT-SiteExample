@@ -1,0 +1,12 @@
+/**
+ * ! index.html - Page Classes
+ */
+
+ 
+.black-and-white {
+    filter: saturate(0);
+}
+
+.fix-image-sizing {
+    width: 50%;
+}
