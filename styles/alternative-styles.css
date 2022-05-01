@@ -1,12 +1,53 @@
 /**
- * ! index.html - Page Classes
+ * ! index.html - Page Classes and others
  */
 
- 
 .black-and-white {
     filter: saturate(0);
 }
 
 .fix-image-sizing {
-    width: 50%;
+    width: 53%;
+}
+
+.custom-font {
+    font-family: 'Heebo', sans-serif;
+}
+
+
+#middle-content-container p {
+    color: black;
+    font-size: 32px;
+    border: 2px solid black;
+}
+
+#middle-initial-content, #middle-second-content {
+    padding: 25px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#middle-second-content {
+    justify-content: space-around;
+}
+
+#middle-second-content p {
+    padding: 25px;
+    max-width: 250px;
+}
+
+#middle-initial-content p {
+    padding: 25px;
+}
+
+::-webkit-scrollbar {
+    background-color: var(--color1);
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--color2);
+    border-radius: 10px;
 }
