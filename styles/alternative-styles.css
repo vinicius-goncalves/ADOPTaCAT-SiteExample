@@ -2,6 +2,14 @@
  * ! index.html - Page Classes and others
  */
 
+html {
+    scroll-behavior: smooth;
+}
+
+ .apply-font {
+    font-family: 'Heebo', serif;
+ }
+
 .black-and-white {
     filter: saturate(0);
 }
@@ -14,32 +22,12 @@
     font-family: 'Heebo', sans-serif;
 }
 
-
-#middle-content-container p {
-    color: black;
-    font-size: 32px;
-    border: 2px solid black;
+.middle-image-fix {
+    width: 250px;
 }
 
-#middle-initial-content, #middle-second-content {
-    padding: 25px 0px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-}
-
-#middle-second-content {
-    justify-content: space-around;
-}
-
-#middle-second-content p {
-    padding: 25px;
-    max-width: 250px;
-}
-
-#middle-initial-content p {
-    padding: 25px;
+.rotate-image {
+    transform: rotateY(180deg);
 }
 
 ::-webkit-scrollbar {

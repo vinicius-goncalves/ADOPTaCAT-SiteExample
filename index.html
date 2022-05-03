@@ -13,11 +13,14 @@
     </head>
     <body>
         <header>
-            <a id="header-title">Adopt a Cat</a>
-            <nav id="header-nav">
+            <div id="header-title-content">
+                <i class="fa-solid fa-cat"></i>
+                <a id="header-title">Adopt a Cat</a>
+            </div>
+            <nav class="apply-font" id="header-nav">
                 <a href="#">Home</a>
-                <a href="#">Locations</a>
-                <a href="#">About Us</a>
+                <a href="#middle-content-container">Welcome</a>
+                <a href="#footer-form">Contact Us</a>
             </nav>
         </header>
         <main>
@@ -29,24 +32,45 @@
                 <img src="images/header-cat.png" alt="Cat Image" class="black-and-white fix-image-sizing">
             </div>
             <div id="middle-content-container">
-                <div id="middle-initial-content">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, ratione.</p>
-                </div>
-                <div id="middle-second-content">
-                    <div class="middle-content">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, voluptates?</p>
+                <h1 id="middle-title">Welcome</h1>
+                <div id="middle-content">
+                    <div class="middle-image">
+                        <img src="images/cat-image.png" class="middle-image-fix" alt="">
+                        <h2>Adorables</h2>
+                        <hr>
+                        <p class="apply-font">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem sunt autem nulla officia nihil debitis eaque hic alias nobis recusandae doloremque enim, aspernatur culpa, quae est ipsa dolorem, in dignissimos.</p>
                     </div>
-                    <div class="middle-content">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, voluptates?</p>
+                    <div class="middle-image">
+                        <img src="images/cat-image2.png" class="middle-image-fix" alt="">
+                        <h2>Friends</h2>
+                        <hr>
+                        <p class="apply-font">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem sunt autem nulla officia nihil debitis eaque hic alias nobis recusandae doloremque enim, aspernatur culpa, quae est ipsa dolorem, in dignissimos.</p>
                     </div>
-                    <div class="middle-content">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, voluptates?</p>
+                    <div class="middle-image">
+                        <img src="images/cat-image.png" class="middle-image-fix rotate-image" alt="">
+                        <h2>Animals</h2>
+                        <hr>
+                        <p class="apply-font">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem sunt autem nulla officia nihil debitis eaque hic alias nobis recusandae doloremque enim, aspernatur culpa, quae est ipsa dolorem, in dignissimos.</p>
                     </div>
                 </div>
             </div>
         </main>
-        <footer>
-
+        <footer>    
+            <div class="apply-font" id="footer-form">
+                <img src="images/footer-image.png" id="footer-image" alt="">
+                <form>
+                    <div class="input-section">
+                        <label for="input-email">Name</label>
+                        <input type="text" name="input-name" id="input-name" placeholder="Your name">
+                    </div>
+                    <div class="input-section">
+                        <label for="input-email">E-mail</label>
+                        <input type="email" name="input-email" id="input-email" placeholder="Your e-mail">
+                    </div>
+                    <input type="submit" value="Send">
+                </form>
+            </div>
         </footer>
+        <script src="https://kit.fontawesome.com/866e7f0be4.js" crossorigin="anonymous"></script>
     </body>
 </html>
