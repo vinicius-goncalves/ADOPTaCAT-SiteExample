@@ -141,8 +141,17 @@ form {
     text-align: center;
 }
 
+input {
+    color: black;
+}
+
+#footer-form label {
+    padding: 10px 0;
+}
+
 .input-section input {
-    width: 250px;
+    width: 450px;
+    padding: 10px;
 }
 
 .input-section label {
@@ -151,9 +160,16 @@ form {
 }
 
 form input[type="submit"] {
-    padding: 5px;
+    margin-top: 15px;
+    padding: 15px;
     width: 100%;
-    color: black;
+    color: white;
+    background-color: var(--color1);
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border: none;
 }
 
 

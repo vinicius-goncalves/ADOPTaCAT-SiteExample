@@ -58,16 +58,20 @@
         <footer>    
             <div class="apply-font" id="footer-form">
                 <img src="images/footer-image.png" id="footer-image" alt="">
-                <form>
+                <form method="get" autocomplete="off">
                     <div class="input-section">
                         <label for="input-email">Name</label>
-                        <input type="text" name="input-name" id="input-name" placeholder="Your name">
+                        <input type="text" name="input-name" id="input-name" placeholder="Your name" autocomplete="none">
                     </div>
                     <div class="input-section">
                         <label for="input-email">E-mail</label>
-                        <input type="email" name="input-email" id="input-email" placeholder="Your e-mail">
+                        <input type="email" name="input-email" id="input-email" placeholder="Your e-mail" autocomplete="none">
                     </div>
-                    <input type="submit" value="Send">
+                    <div class="input-section">
+                        <label for="input-textarea">Message</label>
+                        <input type="text" name="" id="" placeholder="Your message" autocomplete="none">
+                    </div>
+                    <input type="submit" value="Send the Message">
                 </form>
             </div>
         </footer>
